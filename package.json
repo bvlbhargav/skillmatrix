@@ -1,0 +1,22 @@
+{
+  "name": "skill-matrix",
+  "version": "1.0.0",
+  "description": "Skill Matrix ",
+  "main": "index.html",
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bvlbhargav/skillmatrix.git"
+  },
+  "keywords": [
+    "Skillmatrix"
+  ],
+  "author": "Lakshmi Bhargava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bvlbhargav/skillmatrix/issues"
+  },
+  "homepage": "https://github.com/bvlbhargav/skillmatrix#readme"
+}

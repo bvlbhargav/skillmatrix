@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700&subset=cyrillic,latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic,latin-ext);
+@import url(//hello.myfonts.net/count/32c826);
+
+.App-header {
+  background-color: #e74c3c;
+  height: 60px;
+  padding:10px;
+  color: #ecf0f1;
+  font-family: 'Open Sans'
+}
+
+.App-Footer{
+  background-color: #e74c3c;
+    height: 20px;
+    padding: 10px;
+    color: #ecf0f1;
+    font-family: 'Open Sans';
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.Header-Menu
+{
+  display:block;
+}
+
+.Header-Menu li{
+  float:left;
+  
+}
