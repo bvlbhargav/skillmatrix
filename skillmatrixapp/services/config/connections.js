@@ -1,0 +1,1 @@
+module.exports = { qa_db_connectionString :"mongodb://localhost:27017/skillmatrix_QA"};
