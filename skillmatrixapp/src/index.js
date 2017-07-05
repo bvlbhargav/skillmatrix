@@ -1,11 +1,59 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './Components';
-import Footer from './App';
-//import registerServiceWorker from './registerServiceWorker';
-import './index.css';
 
+class SkillSet extends React.Component {
 
-ReactDOM.render(<div><Header/><Footer /></div>, document.getElementById('root'));
+    render() {
+        return (
+            <div>
+                <h1>Hello Murali from react </h1>
+                <AddSkills />
+            </div>
+        );
 
-//registerServiceWorker();
+    }
+}
+
+class AddSkills extends React.Component {
+    constructor() {
+        super();
+        this.state={
+            value :null,
+        }
+    }
+    render() {
+        return (
+            <div>
+                <form>
+                    <label>
+                        Skill:
+    <input type="text" name="value" />
+                    </label>
+                    <input type="button" value="Add" onClick={() => alert('value')} />
+                </form>
+            </div>
+        );
+    }
+}
+
+class DisplaySkills extends React.Component {
+    constructor() {
+        super();
+        this.state = {
+            skills: []
+        }
+    }
+    render() {
+        return (
+            <div>
+
+            </div>
+        )
+    }
+}
+
+ReactDOM.render(
+
+    <SkillSet />,
+    document.getElementById('root')
+);
